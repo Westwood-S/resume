@@ -3,7 +3,8 @@
 
 body {
   font-family: 'Times New Roman', Times, serif;
-  padding-top: 54px;
+  padding: auto;
+  
   color: rgb(94, 87, 87);
   font-size: 19px;
 }
@@ -24,6 +25,20 @@ a {
 a:hover, a:focus, a:active {
   color: rgb(25, 35, 133);
 }
+
+@media (min-width: 425px) {
+  .p-6 {
+    padding-left: 5em !important;
+    padding-right: 5em !important;
+  }
+}
+@media (max-width: 425px) {
+  .p-6 {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+  }
+}
+
 
 .mb-5 {
   margin-top: 35px;
