@@ -106,13 +106,70 @@
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content">
-                <h3 class="mb-0">Teacher Asistant</h3>
-                <div class="subheading mb-3">Frontend: React | Backend: Nodejs | Others: Docker</div>
-                <p>Teacher assistant of Software Engineering (CS554)</p>
-                <ul>
-                  <li>Deploy a private server of Battlecode 2020 MIT for students to run code on the private cloud of PSU.</li>
-                  <li>Review unit test coverage and cyclomatic complexity analysis to quantify students’ performance in class.</li>
-                </ul>
+                <h3 class="mb-0">Teaching Assistant</h3>
+                <div class="subheading mb-3">Portland State University | Frontend: React | Backend: Firebase, Node.js, Django | Database: MongoDB, PostgreSQL | Others: Google Cloud Platform, Docker</div>
+                <ol>
+                  <li>
+                    <p>I: Software Engineering (CS554 Fall 2020)</p>
+                    <a href="https://sebattlecode.com">https://sebattlecode.com</a>
+                    <ul>  
+                      <li>Rebuilt a Hackathon called Battlecode MIT that’s already ended, for students as their group project.</li>
+                      <li>The backend was built using Firebase with its features including Authentication, Cloud Firestore, Storage and Hosting. And deployed the site with a Google domain.</li>
+                      <li>Two servers in Google Cloud are running as Linux services.
+                        <ul>  
+                            <li>When users submit their code, it gets uploaded to GCP storage. The submit server subscribes to changes in storage and will download and run the submitted code then tell users if the code’s compile succeeded or not. All submissions enter a queue and execute in FIFO manner.</li>  
+                            <li>The game server runs a game every 5 minutes and returns users with results and a replay file. Every user’s code is maintained with a constantly refreshing hash so that all the code gets executed at the same number of times.</li>
+                        </ul>
+                      </li>
+                      <li>Designed a four sprint format that students should present their codebase, game strategy, unit test coverage and cyclomatic complexity analysis at the end of each sprint.</li>
+                    </ul>
+                  </li><br>
+                  <li>
+                    <p>II: Elements of Software Engineering (CS300 Spring 2020)</p>
+                    <a href="http://web.cecs.pdx.edu/~cecishi/cs300-s20/project.html">http://web.cecs.pdx.edu/~cecishi/cs300-s20/project.html</a>
+                    <ul>
+                      <li>Gave students tutorials each week in class to help them build an IM web app using MERN stack.</li>
+                      <li>Designed feature document, architecture document and test plan for students to fill out and get a deeper understanding of the project development process.</li>
+                    </ul>
+                  </li><br>
+                  <li>
+                    <p>III: Software Engineering (CS554 Winter 2020)</p>
+                    <a href="https://github.com/Westwood-S/se_flutter">https://github.com/Westwood-S/se_flutter</a>
+                    <ul>
+                      <li>Helped students to build a cross-platform shopping mobile app using Flutter.</li>
+                      <li>Gave students lectures on topics like exploring different Flutter widgets, what different kinds of apps Flutter could do and what’s the difference between android app and ios app etc.</li>
+                    </ul>
+                  </li><br>
+                </ol>
+              </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">Jan 2020 - present</span>
+              </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div class="resume-content">
+                <h3 class="mb-0">Fullstack Web Developer</h3>
+                <div class="subheading mb-3">Frontend: React | Backend: Node.js firebase | Database: MongoDB | Linter: eslint | Unit testing: Jest | Others: Slack Confluence Jira Bitbucket</div>
+                <ol>
+                  <li>
+                    <p>I: A movie community that shares their enthusiasm</p>
+                    <a href="https://bitbucket.org/pdxcap/movie-fanatic-club">https://bitbucket.org/pdxcap/movie-fanatic-club</a>
+                    <ul>  
+                      <li>Built an API that would scrape data from imdb website and provide users info about now-streaming and coming-soon movies.</li>
+                      <li>Created a community that users could share their watchlist with friends, and get notification if someone has the same interest.</li>
+                      <li>Users could update their schedule and preferred theater to get optimized screening time suggestions.</li>
+                    </ul>
+                  </li><br>
+                  <li>
+                    <p>II: A stock market dashboard for long-term investors</p>
+                    <a href="https://github.com/klhexpress/CS410P-FrontEndProject">https://github.com/klhexpress/CS410P-FrontEndProject</a>
+                    <ul>
+                      <li>Used D3.js to implement a stock screener with 6 different chart formats that showed open, high, low, and closing prices for companies that users like with various time frequency indexes.</li>
+                      <li>Provided user popular technical indicators(SMA/EMA/MACD) charts and real-time worldwide news to enhance their investment strategy with great APIs.</li>
+                    </ul>
+                  </li>
+                </ol>
               </div>
               <div class="resume-date text-md-right">
                 <span class="text-primary">Jan 2020 - Mar 2020</span>
@@ -121,27 +178,29 @@
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content">
-                <h3 class="mb-0">Web Maintainer</h3>
-                <div class="subheading mb-3">Portland State University | MySql, JavaScript, HTML/CSS</div>
-                <p>Maintain the pdx.edu website during its major transition to a whole new format-Drupal 8, including daily troubleshoot and transfer all the content in a stable and consistent way.</p>
-              </div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary">Sep 2019 - Present</span>
-              </div>
-            </div>
-
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div class="resume-content">
-                <h3 class="mb-0">Battlecode Techlead</h3>
+                <h3 class="mb-0">MIT Battlecode Techlead</h3>
                 <div class="subheading mb-3">Code: Java | Testing: Travis CI | Unit testing: Mockito</div>
-                <p>An MIT hackathon that combines real-time battle strategy, software engineering, and artificial intelligence for advanced coders. The game requires the ability to react very quickly to enemies' strategy, and come up with new designs to defend. Rank 25th in the US.</p>
+                <p>An MIT hackathon that combines real-time battle strategy, software engineering, and artificial intelligence for advanced coders. The hackathon requires the ability of constantly updating algorithms to defend the enemies' new strategies.</p>
                 <ul>
-                  <li>Led a team of 4, using slack, trello and github to create an agile environment in working.</li>
-                  <li>Responsible for deciding what goal should be achieved in each sprint, assigning the right amount of tasks to every member, having a reasonable expected outcome in mind and encouraging members by working harder than anyone else.</li>
+                  <li>Led a team of 4. Used slack, trello and github to create an agile environment in working.</li>
+                  <li>Ranked 25th in the US. Was responsible for deciding what new strategy should be implemented in each sprint, assigning the right amount of tasks to every member, having a reasonable expectation and encouraging members by working harder than anyone else.</li>
                 </ul>
               </div>
               <div class="resume-date text-md-right">
-                <span class="text-primary">Sep 2019 - Dec 2019</span>
+                <span class="text-primary">Jan 2020</span>
+              </div>
+            </div>
+              
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div class="resume-content">
+                <h3 class="mb-0">Frontend Web Developer</h3>
+                <div class="subheading mb-3">Portland State University | JavaScript, HTML/CSS</div>
+                <ul>
+                  <li>The pdx.edu was going through a major transition to a whole new framework-Drupal 8. This job included daily troubleshooting, transferring all the old content to the new template and redesigning the frontend if necessary.</li>
+                </ul>
+              </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">Sep 2019 - Mar 2020</span>
               </div>
             </div>
 
@@ -150,8 +209,8 @@
                 <h3 class="mb-0">Supply Planner</h3>
                 <div class="subheading mb-3">IKEA Purchasing Co., Ltd. | Python</div>
                 <ul>
-                  <li>Created an excel template to automate the process of their weekly demand forecasting and month KPI analysis.</li>
-                  <li>Went on business trips to suppliers in second/third-tier cities to enhance their appraisal system.</li>
+                  <li>Used Python to generate an Excel template to automate the process of the company's weekly demand forecasting and monthly KPI analysis.</li>
+                  <li>Went on business trips to suppliers in second/third-tier cities to enhance their appraisal systems.</li>
                   <li>Organized an exhaustive training material for new interns on board to get hold of useful information asap.</li>
                 </ul>
               </div>
