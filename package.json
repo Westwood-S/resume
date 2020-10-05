@@ -2,7 +2,7 @@
     "title": "Resume",
     "name": "resume",
     "version": "5.0.8",
-    "description": "s",
+    "description": "Li Shi's resume",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
@@ -23,7 +23,7 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
-        "jquery": "3.4.1",
+        "jquery": "3.5.0",
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
